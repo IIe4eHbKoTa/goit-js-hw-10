@@ -1,0 +1,44 @@
+
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a{  margin: 0;
+    padding: 0;
+}
+
+
+
+.image{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.cat-info{
+    flex-direction: column;
+    padding: 0 15px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 20px;
+}
+
+.name{ 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+.description{
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    font-size: 20px;
+}

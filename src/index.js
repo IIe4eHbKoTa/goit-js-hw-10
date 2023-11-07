@@ -9,6 +9,7 @@ const error = document.querySelector('.error');
 const catInfo = document.querySelector('.cat-info');
 
 error.style.display = 'none'; // Початково приховати елемент помилки
+breedSelect.style.display = 'none';
 
 fetchBreeds()
   .then(breeds => {
@@ -24,6 +25,7 @@ fetchBreeds()
       option.text = breed.name;
       breedSelect.appendChild(option);
     });
+    breedSelect.style.display = 'flex';
     new SlimSelect({
       select: '#slim',
     });
